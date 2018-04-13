@@ -1,0 +1,14 @@
+{
+    "require-dev": {
+        "facebook/webdriver": "^1.5",
+        "phpunit/phpunit": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tests\\": "Tests/"
+        },
+        "files": [
+            "vendor/phpunit/phpunit/src/Framework/Assert/Functions.php"
+        ]
+    }
+}
